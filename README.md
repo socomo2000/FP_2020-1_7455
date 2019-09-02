@@ -9,3 +9,7 @@ tener la carátula correcta.
 Además de eso, la extensión ".c" es solo para
 cuando hagamos programas en C, no es necesario
 que se la agregues también a los pdf
+
+# Segunda revisión
+
+Sigue sin tener la carátula correcta
