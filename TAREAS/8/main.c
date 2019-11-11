@@ -1,18 +1,18 @@
 #include <stdlib.h>
 #include <stdio.h>
-int main(int argc, char*argv[]) 
+int main(int argc, char*argv[]) //programa para convertir de farenheit a centigrados
 {
-int x; 
-double y, res;
-x=atoi(argv[1]);
-y=atof(argv[2]);
-if(x==0){
-res=((y*9)/5)+32;
-printf("%.2lf\n",res);
+int x; //x puede ser entero porque solo se dara 1 o 0
+double y, res;//para que los resultados salgan mas exactos se usa double
+x=atoi(argv[1]);//se conviete x a numero entero
+y=atof(argv[2]);//se conviete el segundo valor ingresaso a double
+if(x==0){//en caso de que x valga cero se usará la siguiente formula
+res=((y*9)/5)+32;//formula para convrtir de centigrados a farenheit
+printf("%.2lf\n",res);//se muestra el resultado
 }
-if(x==1){
-res=((y-32)*5)/9;
-printf("%.2lf\n",res);
+if(x==1){//en caso de que x valga uno se usará la siguiente formula
+res=((y-32)*5)/9;//formula para converir de farenheit a centigrados
+printf("%.2lf\n",res);//se muestra el resultado
 }
 return 0;
 }
