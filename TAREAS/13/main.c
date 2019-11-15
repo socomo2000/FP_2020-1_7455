@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>//programa para ordenar de menor a mayor numeros mediante el metoo de la burbuja
 void imprimir(int x[], int y);
 void intercambio(int *a, int *b);
 void ordenar(int c[], int d);
